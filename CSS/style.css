@@ -24,6 +24,7 @@ body {
     -o-animation: fadein 2s; /* Opera */
 }
 
+
 /* MENU DU HAUT */
 
 .menu .logo {
@@ -151,79 +152,72 @@ hr {
 	margin-bottom: -5px;
 	margin-top: -5px;
 }
-/* ANIMATION CERCLE */
-/*
-@keyframes spin {
-  from {
-    transform: rotate(0);
-  }
-  to{
-    transform: rotate(359deg);
-  }
-}
 
-.spinner-box {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-} */
+/* CARRE */
 
-/* SOLAR SYSTEM */
-/*
-.solar-system {
-  width: 250px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.orbit {
-	position: relative;
+.donne {
+	height: 300px;
+	/* background-color: #ffeae0; */
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid #BFB0A8;
-	border-radius: 50%;
 }
 
-.earth-orbit {
-	width: 165px;
-	height: 165px;
-  -webkit-animation: spin 12s linear 0s infinite;
+.github  {
+	width: 200px;
+  height: 250px;
+	margin-left: 35%;
+	border-radius: 40px;
+	opacity: 0.8;
 }
 
-.venus-orbit {
-	width: 120px;
-	height: 120px;
-  -webkit-animation: spin 7.4s linear 0s infinite;
+.github:hover {
+	opacity: 1;
+  transition: 0.3s;
+	background-color: #ffeae0;
 }
 
-.mercury-orbit {
-	width: 90px;
-	height: 90px;
-  -webkit-animation: spin 3s linear 0s infinite;
+.linkedin {
+  width: 200px;
+  height: 250px;
+	margin-left: 9%;
+	border-radius: 40px;
+	opacity: 0.8;
 }
 
-.planet {
-	position: absolute;
-	top: -5px;
-  width: 10px;
-  height: 10px;
-	border-radius: 50%;
-  background-color: #D4ECFFe;
+.linkedin:hover {
+	opacity: 1;
+  transition: 0.3s;
+	background-color: #ffeae0;
 }
 
-.sun {
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	background-color: #C7E7FF;
-} */
+.gitimg {
+	width: 150px;
+	height: 150px;
+	display: block;
+    margin-left: auto;
+		margin-right: auto;
+		margin-top: -5%;
+}
 
+.linimg {
+	width: 150px;
+	height: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: -5%;
+}
+
+
+.liengl {
+		text-decoration: none;
+		font-family: 'Gotu', sans-serif;
+		text-align: center;
+		color: black;
+		font-weight: bold;
+		font-size: 23px;
+		margin-right: 12%;
+		margin-left: 12%;
+}
 
   /* Tablette */
 @media screen and (max-width: 992px) {
@@ -239,8 +233,12 @@ hr {
   }
 }
 
+#particle-canvas {
+  height: 200px;
+}
 
 /* Couleur :
 
 Rose pale : #ffeae0
 Gris foncé : 383838
+A7D9D6
