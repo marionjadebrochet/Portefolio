@@ -1,3 +1,50 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MON CSS */
 @charset "UTF-8";
 
 html, body {
@@ -61,8 +108,11 @@ img {
   height: 500px;
 }
 
-a, p, h1 {
+a, p, h1, b {
   font-family: 'Gotu', sans-serif;
+	line-height: 1.5em;
+	text-decoration: none;
+	color: black;
 }
 
 .photoetcercle {
@@ -74,18 +124,13 @@ a, p, h1 {
   position: absolute;
 }
 
-.spinner-box {
-  margin-top: 20%;
-
-}
 .imageettexte {
     display: inline-block;
     position: relative;
-    margin-left: 5%;
 }
 
 .image {
-  margin: 10% 0% 10% 90%;
+  margin: 10% 0% 10% 80%;
   border-radius: 100px;
 }
 
@@ -94,7 +139,7 @@ a, p, h1 {
     position: absolute;
     text-align: center;
     top: 30%;
-    left: 45%;
+    left: 30%;
     width: 70%;
 }
 
@@ -118,11 +163,20 @@ a, p, h1 {
 
 .recEduc {
   border: 10px solid #ffeae0;
-  width:60%;
+  width:54%;
 	height:120%;
   text-align: center;
 	margin-left: auto;
-margin-right: auto;
+	margin-right: auto;
+	opacity: 0.7;
+  transition : all 1s ease-in-out;
+}
+
+.recEduc:hover {
+  opacity: 1;
+	width:56%;
+	transition : all 1s ease-in-out;
+	border-radius: 30px;
 }
 
 .recEduc h2 {
@@ -138,7 +192,6 @@ margin-right: auto;
   font-size: 15px;
   margin-right: 12%;
   margin-left: 12%;
-  margin-top: -10px;
 }
 
 .recEduc h1 {
@@ -152,6 +205,121 @@ margin-right: auto;
 hr {
 	margin-bottom: -5px;
 	margin-top: -5px;
+}
+
+/* COMPETENCES */
+
+.recComp {
+  border: 10px solid #ffeae0;
+  width:69%;
+	height:80%;
+  text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+		transition : all 1s ease-in-out;
+}
+
+.recComp:hover {
+  opacity: 1;
+	width:71%;
+	transition : all 1s ease-in-out;
+	border-radius: 30px;
+}
+.recComp h2 {
+  text-align: center;
+  font-weight: bold;
+  color:#383838;
+  font-size: 30px;
+}
+
+.recComp p {
+  text-align: center;
+  color:#383838;
+  font-size: 15px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.recComp h1 {
+  text-align: center;
+  color:#383838;
+  font-size: 15px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+
+ .jauge {
+    width:200px;
+    height: 20px;
+    display: block;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.jauge-remplissage1 {
+    transition: all 0.3s linear 0s;
+    background-color: #ffeae0;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jauge-remplissage2 {
+    transition: all 0.3s linear 0s;
+    background-color: #ffeae0;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jauge-remplissage3 {
+    transition: all 0.3s linear 0s;
+    background-color: #ffeae0;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jauge-remplissage4 {
+    transition: all 0.3s linear 0s;
+    background-color: #ffeae0;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.bare {
+	margin-top: 4%;
+}
+
+.imgetprog {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+.logocom {
+	width:35%;
+	height:100%;
+}
+
+.ens
+{
+display: flex;
+}
+.cote1
+{
+flex:1;
 }
 
 /* CARRE */
@@ -169,13 +337,15 @@ hr {
 	border-radius: 40px;
 	opacity: 0.8;
 	margin-left: auto;
-margin-right: auto;
+	margin-right: auto;
+		transition : all 0.8s;
 }
 
 .github:hover {
 	opacity: 1;
-  transition: 0.3s;
+  transition: 0.6s;
 	background-color: #ffeae0;
+
 }
 
 .linkedin {
@@ -185,11 +355,12 @@ margin-right: auto;
 	opacity: 0.8;
 	margin-left: auto;
 margin-right: auto;
+	transition : all 0.8s;
 }
 
 .linkedin:hover {
 	opacity: 1;
-  transition: 0.3s;
+  transition: 0.6s;
 	background-color: #ffeae0;
 }
 
