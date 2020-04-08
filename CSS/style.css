@@ -118,10 +118,11 @@ a, p, h1 {
 
 .recEduc {
   border: 10px solid #ffeae0;
-  width:828px;
-	height:900px;
-  margin-left: 28%;
-  text-align: justify;
+  width:60%;
+	height:120%;
+  text-align: center;
+	margin-left: auto;
+margin-right: auto;
 }
 
 .recEduc h2 {
@@ -159,14 +160,16 @@ hr {
 	height: 300px;
 	/* background-color: #ffeae0; */
 	display: flex;
+
 }
 
 .github  {
 	width: 200px;
   height: 250px;
-	margin-left: 35%;
 	border-radius: 40px;
 	opacity: 0.8;
+	margin-left: auto;
+margin-right: auto;
 }
 
 .github:hover {
@@ -178,9 +181,10 @@ hr {
 .linkedin {
   width: 200px;
   height: 250px;
-	margin-left: 9%;
 	border-radius: 40px;
 	opacity: 0.8;
+	margin-left: auto;
+margin-right: auto;
 }
 
 .linkedin:hover {
