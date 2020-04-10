@@ -256,11 +256,12 @@ hr {
     display: block;
     background-color: #F2F2F2;
     position: relative;
+		opacity: 0.5;
 }
 
 .jauge-remplissage1 {
     transition: all 0.3s linear 0s;
-    background-color: #ffeae0;
+    background-color: #d4ecff;
     width: 80%;
     height: 100%;
     position: absolute;
@@ -270,7 +271,7 @@ hr {
 
 .jauge-remplissage2 {
     transition: all 0.3s linear 0s;
-    background-color: #ffeae0;
+    background-color: #d4ecff;
     width: 70%;
     height: 100%;
     position: absolute;
@@ -280,7 +281,7 @@ hr {
 
 .jauge-remplissage3 {
     transition: all 0.3s linear 0s;
-    background-color: #ffeae0;
+    background-color: #d4ecff;
     width: 60%;
     height: 100%;
     position: absolute;
@@ -290,7 +291,7 @@ hr {
 
 .jauge-remplissage4 {
     transition: all 0.3s linear 0s;
-    background-color: #ffeae0;
+    background-color: #d4ecff;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -322,12 +323,47 @@ display: flex;
 flex:1;
 }
 
+/* CONTACT */
+
+.contact {
+  width:35%;
+	height:85%;
+  text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact h2 {
+  text-align: center;
+  font-weight: bold;
+  color:#383838;
+  font-size: 25px;
+}
+
+.contact p {
+  text-align: center;
+  color:#383838;
+  font-size: 15px;
+  margin-right: 12%;
+  margin-left: 12%;
+	font-style: italic;
+}
+
+.contact h1 {
+  text-align: center;
+  color:#383838;
+  font-size: 15px;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
 /* CARRE */
 
 .donne {
 	height: 300px;
 	/* background-color: #ffeae0; */
 	display: flex;
+
 
 }
 
@@ -344,8 +380,7 @@ flex:1;
 .github:hover {
 	opacity: 1;
   transition: 0.6s;
-	background-color: #ffeae0;
-
+background-color: #ffeae0;
 }
 
 .linkedin {
@@ -361,7 +396,7 @@ margin-right: auto;
 .linkedin:hover {
 	opacity: 1;
   transition: 0.6s;
-	background-color: #ffeae0;
+background-color: #ffeae0;
 }
 
 .gitimg {
@@ -388,12 +423,20 @@ margin-right: auto;
 		font-family: 'Gotu', sans-serif;
 		text-align: center;
 		color: black;
-		font-weight: bold;
-		font-size: 23px;
 		margin-right: 12%;
 		margin-left: 12%;
 }
 
+.butongitlin {
+	margin-bottom: 10%;
+	color : #BBB6C2;
+	font-weight: bold;
+}
+
+hr .fin {
+	border-top: 1px dashed;
+	color: #ffeae0;
+}
   /* Tablette */
 @media screen and (max-width: 992px) {
   body {
@@ -411,6 +454,8 @@ margin-right: auto;
 #particle-canvas {
   height: 200px;
 }
+
+
 
 /* Couleur :
 
