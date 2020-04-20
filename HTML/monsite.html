@@ -9,9 +9,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
 	<!-- css -->
 	<link rel="stylesheet" href="../CSS/style.css">
+
 </head>
 <body>
-
+<div id="progress"></div>
   <div class="presentation">
     <div class="menu">
       <a href="#" class="logo"> Mon portfolio </a>
@@ -23,30 +24,41 @@
         <a href="#contact"> Contactez-moi </a>
     </div>
 
-    <div class="photoetcercle">
-      <div class="imageettexte">
-        <img class="image" src="../IMAGES/canva-photo-editor.png" alt="photo de profil">
-        <div class="text"> <h2>MARION BROCHET</h2></div>
-      </div>
-    </div>
-  </div>
+		<div class="photoetcercle">
+		      <div class="imageettexte">
+
+		        <img class="image" src="../IMAGES/ssfond.png" alt="photo de profil">
+			<div class="textee"> <h2>MARION BROCHET</h2></div>
+		      </div>
+		    </div>
+		  </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
 
   <div id="about" class="propos">
     <br>
 		<br>
 		<br>
-    <h2 >Bienvenue sur mon Portefolio</h2>
+			<h1 class="ml5">
+	  <span class="text-wrapper">
+	    <span class="line line1"></span>
+	    <span class="letters letters-left">Bienvenue sur mon Portfolio</span>
+	    <span class="line line2"></span>
+	  </span>
+	</h1>
     <br>
 		<br>
 		<br>
-    <p>Je m'appelle Marion Brochet, je suis née le 4 octobre 1998 et je vis à Limoges. Je suis actuellement étudiante à l'IUT du Limousin au Département Informatique. A la rentrée prochaine je serai au Québec, plus précisément à Chicoutimi pour préparer un Baccalauréat en Informatique avec le double diplôme en France à la Faculté de Limoges.</p>
+    <p>Je m'appelle Marion Brochet, je suis née le 4 octobre 1998 et je vis à Limoges. Je suis actuellement étudiante à l'IUT du Limousin au Département Informatique. A la rentrée prochaine je serai au Québec, plus précisément à Chicoutimi pour préparer un Baccalauréat en Informatique.</p>
   </div>
 
 	<br>
 	<br>
 	<br>
 
-  <hr width="0.3%" size="110px" color="#ffeae0">
+  <hr class="hr1">
 
   <div id="education" class="recEduc">
     <br>
@@ -77,7 +89,7 @@
     <b>CPES Limoges</b>
 		<br>
 		<br>
-    <p>Ecole préparatoire aux concours d’orthophonie</p>
+    <p>Ecole préparatoire aux concours d’orthophonie.</p>
 		<br>
 		<br><br>
     <br>
@@ -85,13 +97,11 @@
     <b>Lycée privée Sainte Solange</b>
 		<br>
 		<br>
-    <p>Baccalauréat scientifique option physique-chimie à Châteauroux </p>
-		<br>
-		<br><br>
-		<br>
+    <p>Baccalauréat scientifique option physique-chimie à Châteauroux.</p>
+
   </div>
 
-	<hr width="1px" size="180px" color="#ffeae0">
+	<hr class="longhr">
 
 	<div id="comp" class="recComp">
     <br>
@@ -100,100 +110,152 @@
     <h2> Mes compétences </h2>
     <br>
     <br>
+		<h1>En Informatique</h1>
 		<br>
 		<br>
 
-<div class="ens">
+		<div class="ens">
 
 
-		<div class="cote1">
-			<div class="imgetprog">
-				<div class="logocom">
-					<img class="logocom" src="../IMAGES/html.png" alt="Image html">
-				</div>
-				<div class="bare">
-					<p><a class="jauge"><span class="jauge-remplissage1"></span></a></p>
-				</div>
-			</div>
-			<div class="imgetprog">
-				<div class="logocom">
-					<img class="logocom" src="../IMAGES/css.png" alt="Image css">
-				</div>
-				<div class="bare">
-					<p><a class="jauge"><span class="jauge-remplissage1"></span></a></p>
-				</div>
-			</div>
-			<div class="imgetprog">
-				<div class="logocom">
-					<img class="logocom" src="../IMAGES/php.png" alt="Image php">
-				</div>
-				<div class="bare">
-					<p><a class="jauge"><span class="jauge-remplissage2"></span></a></p>
-				</div>
-			</div>
-			<div class="imgetprog">
-				<div class="logocom">
-					<img class="logocom" src="../IMAGES/node.png" alt="Image node">
-				</div>
-				<div class="bare">
-					<p><a class="jauge"><span class="jauge-remplissage2"></span></a></p>
-				</div>
-			</div>
-    </div>
+				<div class="cote1">
+					<div class="imgetprog">
+						<div class="logocom">
+							<h2>HTML</h2>
+						</div>
+						<div class="bare">
+							<p><a class="jauge"><span class="jauge-remplissage1"></span></a></p>
+						</div>
+					</div>
+					<div class="imgetprog">
+						<div class="logocom">
+							<h2>CSS</h2>
+						</div>
+						<div class="bare">
+							<p><a class="jauge"><span class="jauge-remplissage1"></span></a></p>
+						</div>
+					</div>
+					<div class="imgetprog">
+						<div class="logocom">
+							<h2>PHP</h2>
+						</div>
+						<div class="bare">
+							<p><a class="jauge"><span class="jauge-remplissage2"></span></a></p>
+						</div>
+					</div>
+					<div class="imgetprog">
+						<div class="logocom">
+							<h2>NODE.js</h2>
+						</div>
+						<div class="bare">
+							<p><a class="jauge"><span class="jauge-remplissage2"></span></a></p>
+						</div>
+					</div>
+		    </div>
 
 
-	 <div class="cote1">
-		<div class="imgetprog">
-			<div class="logocom">
-				<img class="logocom" src="../IMAGES/c.png" alt="Image c">
+			 <div class="cote1">
+				<div class="imgetprog">
+					<div class="logocom">
+						<h2>LANGAGE C</h2>
+					</div>
+					<div class="bare">
+						<p><a class="jauge"><span class="jauge-remplissage3"></span></a></p>
+					</div>
+				</div>
+				<div class="imgetprog">
+					<div class="logocom">
+						<h2>SQL</h2>
+					</div>
+					<div class="bare">
+						<p><a class="jauge"><span class="jauge-remplissage3"></span></a></p>
+					</div>
+				</div>
+				<div class="imgetprog">
+					<div class="logocom">
+						<h2>JAVA</h2>
+					</div>
+					<div class="bare">
+						<p><a class="jauge"><span class="jauge-remplissage4"></span></a></p>
+					</div>
+				</div>
+				<div class="imgetprog">
+					<div class="logocom">
+						<h2>ANDROID</h2>
+					</div>
+					<div class="bare">
+						<p><a class="jauge"><span class="jauge-remplissage4"></span></a></p>
+					</div>
+				</div>
 			</div>
-			<div class="bare">
-				<p><a class="jauge"><span class="jauge-remplissage3"></span></a></p>
 			</div>
-		</div>
-		<div class="imgetprog">
-			<div class="logocom">
-				<img class="logocom" src="../IMAGES/sql.png" alt="Image sql">
-			</div>
-			<div class="bare">
-				<p><a class="jauge"><span class="jauge-remplissage3"></span></a></p>
-			</div>
-		</div>
-		<div class="imgetprog">
-			<div class="logocom">
-				<img class="logocom" src="../IMAGES/java.png" alt="Image java">
-			</div>
-			<div class="bare">
-				<p><a class="jauge"><span class="jauge-remplissage4"></span></a></p>
-			</div>
-		</div>
-		<div class="imgetprog">
-			<div class="logocom">
-				<img class="logocom" src="../IMAGES/android.png" alt="Image android">
-			</div>
-			<div class="bare">
-				<p><a class="jauge"><span class="jauge-remplissage4"></span></a></p>
-			</div>
-		</div>
-	</div>
-	</div>
 
 		<br><br>
-		<p>Retrouvez sur <a href="#git"> Mon github </a> des projets en lien avec ma formation à l'IUT ou des projets personnels qui regroupent les compétences que j'ai citées ci-dessus. </p>
+		<p class="petittexte">Retrouvez sur mon<a href="#git"> Github </a> des projets en lien avec ma formation à l'IUT ou des projets personnels qui regroupent les compétences que j'ai citées ci-dessus. Chaque projet est accompagné d'un README qui explique le projet. </p>
+		<br>
+		<br>
+		<br>
+		<h1>Humaines :</h1>
+		<br>
+		<div class="sens">
+			<div class="text">
+			  <p>On dit de moi que je suis </p>
+			  <p>
+			    <span class="word wisteria"> organisée.</span>
+			    <span class="word belize"> sérieuse.</span>
+			    <span class="word pomegranate"> patiente.</span>
+			    <span class="word green"> observatrice.</span>
+			    <span class="word midnight"> humble.</span>
+					<span class="word wisteria"> rigoureuse.</span>
+			    <span class="word belize"> réactive.</span>
+			  </p>
+			</div>
+		</div>
 		<br>
   </div>
 
-  <hr class="fin" width="1px" size="200px" color="#ffeae0">
+	<hr class="longhr">
+
+	<div id="plus" class="plus">
+		<br>
+		<br>
+		<br>
+		<h2> Le petit plus </h2>
+
+<br>
+<br>
+<br><br>
+		<div class="asso">
+			<div class="expelogo">
+				<b>Organisation des Etudiants en Informatique de Limoges (OEIL) <b>
+				<h1> Vice-Présidente de l’association </h1>
+				<b class="date">Avril 2019 - Avril 2020</b>
+				<br>
+				<br>
+				<p> Lors de cette année là j'ai organisé de multiples événements comme des compétitions gaming, des soirées, des sorties laser game..</p>
+				<p>J'ai également contribué à la gestion financière ainsi qu'à la communication de l'association.</p>
+				<br>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="asso">
+			<div class="expelogo">
+				<b>Création de logo<b> <br>
+				<br>
+				<p>Lors de mon temps libre, je crée des logos. Je réalise mes logos à l'aide d'Illustrator Adobe. </p>
+			</div>
+		</div>
+	</div>
+
+	<hr class="longhr2">
 
 <div id="contact" class="contact">
 	<br>
 	<br>
-	<br>
-	<br>
 	<h2> Contactez-moi </h2>
 	<br>
-	<br><br>
-	<p>Par mail </p>
+	<br>
+	<h1>Par mail </h1>
 	<b> marion.brochet@unilim.fr</b>
 	<br>
 	<br><br><br>
@@ -202,24 +264,27 @@
 <br>
 
 		<div class="donne">
-			<article id="git" class="github">
+			<article class="linkedin">
 				<a class="liengl" href="https://github.com/marionjadebrochet">
 					<p class="butongitlin">Sur Github</p>
 				<img class="gitimg" src="../IMAGES/github.png" alt="Logo Github">
 				</a>
 			</article>
-			<article id="lin" class="linkedin">
+			<article  class="linkedin">
 					<a class="liengl" href="https://www.linkedin.com/in/marion-brochet/">
 				<p class="butongitlin">Sur Linkedin</p>
-				<img class="linimg" src="../IMAGES/linkedin.png" alt="Logo Linkedin">
+				<img class="gitimg" src="../IMAGES/linkedin.png" alt="Logo Linkedin">
+				</a>
+			</article>
+			<article class="linkedin">
+					<a class="liengl" href="../IMAGES/cv.pdf">
+				<p class="butongitlin">Avec mon CV</p>
+				<img class="gitimg" src="../IMAGES/cv.png" alt="Logo CV">
 				</a>
 			</article>
 		</div>
 
 </div>
-
-
-
 
 <footer>
 	<div id="particle-canvas">
@@ -228,6 +293,125 @@
 
 
 <script type="text/javascript">
+
+var words = document.getElementsByClassName('word');
+var wordArray = [];
+var currentWord = 0;
+
+words[currentWord].style.opacity = 1;
+for (var i = 0; i < words.length; i++) {
+  splitLetters(words[i]);
+}
+
+function changeWord() {
+  var cw = wordArray[currentWord];
+  var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+  for (var i = 0; i < cw.length; i++) {
+    animateLetterOut(cw, i);
+  }
+
+  for (var i = 0; i < nw.length; i++) {
+    nw[i].className = 'letter behind';
+    nw[0].parentElement.style.opacity = 1;
+    animateLetterIn(nw, i);
+  }
+
+  currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
+}
+
+function animateLetterOut(cw, i) {
+  setTimeout(function() {
+		cw[i].className = 'letter out';
+  }, i*80);
+}
+
+function animateLetterIn(nw, i) {
+  setTimeout(function() {
+		nw[i].className = 'letter in';
+  }, 340+(i*80));
+}
+
+function splitLetters(word) {
+  var content = word.innerHTML;
+  word.innerHTML = '';
+  var letters = [];
+  for (var i = 0; i < content.length; i++) {
+    var letter = document.createElement('span');
+    letter.className = 'letter';
+    letter.innerHTML = content.charAt(i);
+    word.appendChild(letter);
+    letters.push(letter);
+  }
+
+  wordArray.push(letters);
+}
+
+changeWord();
+setInterval(changeWord, 4000);
+
+
+window.onload = () => {
+    // Ecouteur d'évènement sur scroll
+    window.addEventListener("scroll", () => {
+        // Calcul de la hauteur "utile" du document
+        let hauteur = document.documentElement.scrollHeight - window.innerHeight
+
+        // Récupération de la position verticale
+        let position = window.scrollY
+
+        // Récupération de la largeur de la fenêtre
+        let largeur = document.documentElement.clientWidth
+
+        // Calcul de la largeur de la barre
+        let barre = position / hauteur * largeur
+
+        // Modification du CSS de la barre
+        document.getElementById("progress").style.width = barre+"px"
+    })
+}
+
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 700
+  }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+  }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000000
+  });
+
 // particle.min.js hosted on GitHub
 // Scroll down for initialisation code
 
@@ -237,8 +421,8 @@
 
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
-particleColor: '#454545',
-background: '#ffeae0',
+particleColor: '#fff9f2',
+background: '#cce6e8',
 interactive: true,
 speed: 'medium',
 density: 'high'

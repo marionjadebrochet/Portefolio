@@ -10,7 +10,7 @@
   vertical-align: middle;
   animation: main-text-animation 1.7s ease-in-out forwards;
   font-weight: 700;
-  color: #ffeae0;
+  color: #ffffff;
   overflow: hidden;
   display: block;
   width: 500vw;
@@ -63,8 +63,8 @@ text-decoration: none;
 body {
   overflow: hidden;
   margin: 0;
-  background: rgb(56,56,56);
-  background: linear-gradient(0deg, rgba(56,56,56,1) 0%, rgba(197,182,175,1) 0%, rgba(255,234,224,1) 100%);
+  background: rgb(204,230,232);
+ background: linear-gradient(180deg, rgba(204,230,232,1) 0%, rgba(201,227,224,1) 40%, rgba(186,214,187,1) 100%);
   text-decoration: none;
 }
 
