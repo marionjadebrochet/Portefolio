@@ -3,13 +3,14 @@
 <head>
 	<title>Marion Brochet</title>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="../IMAGES/logo.png">
+	<link rel="shortcut icon" href="./IMAGES/logo.png">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
 	<!-- css -->
 	<link rel="stylesheet" href="./CSS/style.css">
 <link rel="stylesheet" href="./CSS/styleaccueil.css">
+<link rel="stylesheet" href="./CSS/stylePetit.css">
 </head>
 <body>
 	<div class="container">
@@ -25,6 +26,7 @@
 
 	</div>
 <div id="progress"></div>
+
   <div class="presentation">
     <div class="menu">
       <a href="#" class="logo"> Mon portfolio </a>
@@ -218,32 +220,112 @@
 		</div>
   </div>
 
-	<hr class="longhr">
+	<hr class="longhr23">
 
 <div id="port" class="port">
-	<div class="projet">
+			<div class="container11">
+
+				<div class="clock">
+					<div class="clock-hours"></div>
+					<div class="clock-mins"></div>
+				</div>
+
+				<div class="switch">
+				<div class="switch-white"></div>
+				<div class="switch-yellow"></div>
+				<div class="switch-off"></div>
+				</div>
+
+				<div class="computer">
+					<div class="computer-body">
+						<div class="computer-screen">
+							<div class="computer-content">
+								<div class="computer-content-block"></div>
+								<div class="computer-content-text"></div>
+								<div class="computer-content-text"></div>
+								<div class="computer-content-block"></div>
+								<div class="computer-content-text"></div>
+								<div class="computer-content-text"></div>
+							</div>
+						</div>
+						<div class="computer-stand"></div>
+					</div>
+				</div>
+
+				<div class="lamp">
+					<div class="lamp-head"></div>
+					<div class="lamp-bulb on"></div>
+					<div class="lamp-bulb off"></div>
+					<div class="lamp-stand-top"></div>
+					<div class="lamp-stand-top"></div>
+					<div class="lamp-pivot"></div>
+					<div class="lamp-stand-bottom"></div>
+					<div class="lamp-stand-bottom"></div>
+					<div class="lamp-base"></div>
+					<div class="lamp-light yellow"></div>
+					<div class="lamp-light white"></div>
+				</div>
+
+				<div class="desk">
+					<h6>Mes projets</h6>
+				</div>
+			</div>
+			<hr class="longhr23">
+	<div class="projet1">
 		<h2>Projet 1</h2>
 		<b class="date">Décembre 2019</b>
-		<p>Deuxième année IUT</p>
-		<p>Technologies utilisées : PHP, MySQL</p>
-		<p>But : Crée une application Web qui permet l'affichage et la gestion du bétisier de l'IUT. Cette application permettra de mettre en ligne les phrases les plus amusantes dites pas les enseignants pendant leurs cours.</P>
+		<br>
+		<b class="date">Deuxième année IUT - Travail en Binôme</b>
+		<br>
+		<b class="date">PHP, MySQL</b>
+		<br>
+		<br>
+		<p>But : Crée une application Web qui permet l'affichage et la gestion du bétisier de l'IUT. Elle nous permet de mettre en ligne les phrases amusantes dites pas les enseignants.</p>
+		<article class="bouttontourne">
+			<a href="https://github.com/marionjadebrochet/Betisier_IUT_PHP">
+				<h1>Accéder à mon dépot Github</h1>
+			</a>
+		</article>
 	</div>
+
 	<hr class="longhr">
-	<div class="projet">
+
+	<div class="projet2">
 		<h2>Projet 2</h2>
 		<b class="date">Février 2020</b>
-		<p>Deuxième année IUT</p>
-		<p>Technologie utilisée : AndroidStudio</p>
-		<p>But : Crée un jeu sous forme d'application Android, une sorte de TicTacToe revisité. Une grille, des croix, des cercles mais un seul gagnant ! </p>
+		<br>
+		<b class="date">Deuxième année IUT - Travail en Binôme</b>
+		<br>
+		<b class="date"> AndroidStudio</b>
+		<br>
+		<br>
+		<p>But : Crée un jeu sous forme d'application Android, une sorte de TicTacToe revisité pour l'IUT. Une grille, des croix, des cercles mais un seul gagnant ! </p>
+		<article class="bouttontourne">
+			<a href="https://github.com/marionjadebrochet/TicTacProf_IUT_Android">
+				<h1>Accéder à mon dépot Github</h1>
+			</a>
+		</article>
 	</div>
+
 	<hr class="longhr">
-	<div class="projet">
+
+	<div class="projet3">
 		<h2>Projet 3</h2>
 		<b class="date">Mars 2020</b>
-		<p>Deuxième année IUT</p>
-		<p>Technologies utilisées : Node.js, MySQL</p>
+		<br>
+		<b class="date">Deuxième année IUT - Travail en Binôme</b>
+		<br>
+		<b class="date">Node.js, MySQL</b>
+		<br>
+		<br>
 		<p>But : Crée une application Web permettant à la rédaction d'un magazine spécialisé dans le sport automobile de gérer un système d'information et d'informer ses lecteurs.</p>
+		<article class="bouttontourne">
+			<a href="https://github.com/marionjadebrochet/Wroom_IUT_Node.js">
+				<h1>Accéder à mon dépot Github</h1>
+			</a>
+		</article>
 	</div>
+
 </div>
 
 
@@ -321,8 +403,9 @@
 				</a>
 			</article>
 		</div>
-
 </div>
+<br>
+<br>
 
 <footer>
 	<div id="particle-canvas">
@@ -466,6 +549,7 @@ speed: 'medium',
 density: 'high'
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
+
 </script>
 
 </body>

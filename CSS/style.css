@@ -112,6 +112,11 @@ hr {
 		line-height: 1%;
 		border: none;
 }
+
+.longhr23 {
+	height: 150px;
+}
+
 /* MENU DU HAUT */
 
 .menu .logo {
@@ -122,7 +127,7 @@ hr {
 		margin-top: 0;
 }
 .menu a {
-	color : #595959;
+	color : #4b5640;
 	margin-right: 20px;
 	text-transform: uppercase;
   text-decoration: none;
@@ -132,7 +137,7 @@ hr {
 }
 
 .menu a:hover, .logo:hover {
-	color:#4b5640;
+	color:#595959;
 	font-weight: bold;
 }
 
@@ -140,7 +145,7 @@ hr {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1; /* Peut être important si vous avez un menu en position fixe */
+	z-index: 1;
 	background-color: #cce6e8;
 	width: 100%;
 	height: 40px;
@@ -151,7 +156,7 @@ hr {
 	height:auto;
 }
 
-h2 {
+h2, h6 {
   font-family: 'Libre Baskerville', serif;
   font-size: 60px;
   font-style: italic;
@@ -266,6 +271,7 @@ a, p, h1, b {
 }
 /* EDUCATION */
 
+
 .recEduc {
   border: 10px solid #bad6bb;
   width:54%;
@@ -354,7 +360,7 @@ a, p, h1, b {
 
 .jauge-remplissage1 {
     transition: all 0.3s linear 0s;
-    background-color: #fe9a84;
+    background-color: #cce6e8;
     width: 80%;
     height: 100%;
     position: absolute;
@@ -364,7 +370,7 @@ a, p, h1, b {
 
 .jauge-remplissage2 {
     transition: all 0.3s linear 0s;
-    background-color: #fe9a84;
+    background-color: #cce6e8;
     width: 70%;
     height: 100%;
     position: absolute;
@@ -374,7 +380,7 @@ a, p, h1, b {
 
 .jauge-remplissage3 {
     transition: all 0.3s linear 0s;
-    background-color: #fe9a84;
+    background-color: #cce6e8;
     width: 60%;
     height: 100%;
     position: absolute;
@@ -384,7 +390,7 @@ a, p, h1, b {
 
 .jauge-remplissage4 {
     transition: all 0.3s linear 0s;
-    background-color: #fe9a84;
+    background-color: #cce6e8;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -392,12 +398,14 @@ a, p, h1, b {
     bottom: 0;
 }
 
+
+
 .imgetprog {
 	margin-bottom: 3%;
 }
 
 .logocom h2 {
-	color : #fe9a84;
+	color : #4b5640;
 	font-size: 100%;
 	font-style: normal;
 	font-weight: normal;
@@ -503,14 +511,178 @@ font-size: 50px;
 
 /* PORTFOLIO */
 
-.projet {
+@-webkit-keyframes apparitionBackground {
+		 0%   {opacity: 0.20;}
+		100%  {opacity: 1.0;}
+}
+
+.port h2 {
+	text-align: center;
+	color:#383838;
+	font-size: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	text-transform: uppercase;
+}
+
+.port h6 {
+	text-align: center;
+  font-weight: bold;
+  color:#4b5640;
+  font-size: 30px;
+	padding-top: 2%;
+}
+
+
+.port p {
+	text-align: justify;
+	color:#383838;
+	font-size: 15px;
+	margin-right: 12%;
+	margin-left: 12%;
+	font-weight: normal;
+}
+
+.port .date {
+	font-weight: lighter;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.bouttontourne {
+
+	opacity: 0;
+}
+
+.projet1 {
+	border: 10px solid #bad6bb;
+	background-color:  #bad6bb;
+	background-size: 100% 100%;
+	width: 20%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	transition : all 0.8s;
+}
+
+.projet1:hover{
+		background-image: url("../IMAGES/Capture2.PNG");
+		border-top-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+		transition : all 0.5s;
+		-webkit-animation: apparitionBackground 0.3s;
+	}
+
+	.projet1:hover article{
+		opacity: 1;
+		background-color:  #bad6bb;
+		width: 210px;
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		text-align: center;
+		padding-top: 4%;
+		margin:auto;
+	}
+
+.projet1:hover p{
+	opacity: 0
+}
+
+.projet1:hover b{
+	opacity: 0
+}
+
+.projet1:hover h2{
+	opacity: 0
+}
+
+
+.projet2 {
 	border: 10px solid #bad6bb;
 	background-color: #bad6bb;
 	width: 20%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	transition : all 0.8s;
 }
+
+.projet2:hover {
+		background-image: url("../IMAGES/Capture3.PNG");
+  	background-size: 100% 100%;
+		border-top-right-radius: 100px;
+		border-bottom-left-radius: 100px;
+		transition : all 0.5s;
+		-webkit-animation: apparitionBackground 0.3s;
+}
+
+.projet2:hover article{
+	opacity: 1;
+	background-color:  #bad6bb;
+	width: 210px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	text-align: center;
+	padding-top: 4%;
+	margin:auto;
+}
+
+.projet2:hover p{
+	opacity: 0
+}
+
+.projet2:hover b{
+	opacity: 0
+}
+
+.projet2:hover h2{
+	opacity: 0
+}
+
+.projet3 {
+	border: 10px solid #bad6bb;
+	background-color: #bad6bb;
+	width: 20%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	transition : all 0.8s;
+}
+
+.projet3:hover {
+		background-image: url("../IMAGES/Capture.PNG");
+  	background-size: 100% 100%;
+		border-top-left-radius: 100px;
+		border-bottom-right-radius: 100px;
+		transition : all 0.5s;
+		-webkit-animation: apparitionBackground 0.3s;
+}
+
+.projet3:hover article{
+	opacity: 1;
+	background-color:  #bad6bb;
+	width: 210px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	text-align: center;
+	padding-top: 4%;
+	margin:auto;
+}
+
+.projet3:hover p{
+	opacity: 0
+}
+
+.projet3:hover b{
+	opacity: 0
+}
+
+.projet3:hover h2{
+	opacity: 0
+}
+
 /* LE PETIT PLUS */
 
 
