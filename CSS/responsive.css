@@ -6,10 +6,18 @@
   display: none;
 }
 
+.menu {
+  padding: 4%
+}
 body .container{
   background-image: url(../IMAGES/photo11.png);
   text-decoration: none;
   background-size: cover;
+}
+
+.bouttontourne {
+  margin-top: 2%;
+	opacity: 1;
 }
 
 
