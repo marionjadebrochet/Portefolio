@@ -1,0 +1,85 @@
+
+/* Tablette */
+@media screen and (max-width: 1050px) {
+
+.disp {
+  display: none;
+}
+
+body .container{
+  background-image: url(../IMAGES/photo11.png);
+  text-decoration: none;
+  background-size: cover;
+}
+
+
+.imgtext {
+	display:block;
+	align-items: center;
+}
+
+p .imagepp {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.imgtext p {
+  text-align: center;
+}
+
+.recEduc {
+  width:70%;
+}
+
+.plus {
+  width:70%;
+}
+
+
+.ens {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.resp {
+  display: inline;
+}
+
+.mot {
+margin-right:80%;
+margin-bottom: 5%;
+}
+
+.sens {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.projet1 {
+	width: 50%;
+}
+
+.projet2 {
+	width: 50%;
+}
+
+.projet3 {
+	width: 50%;
+}
+
+.projet3:hover article{
+	width: 150px;
+}
+
+.projet2:hover article{
+	width: 150px;
+}
+
+.projet1:hover article{
+	width: 150px;
+}
+
+}

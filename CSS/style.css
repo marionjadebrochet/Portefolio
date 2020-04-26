@@ -119,6 +119,9 @@ hr {
 
 /* MENU DU HAUT */
 
+.navigation {
+	display: none;
+}
 .menu .logo {
   	color:#4b5640;
     font-weight: bold;
@@ -279,11 +282,6 @@ a, p, h1, b {
   text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-  transition : all 1s ease-in-out;
-}
-
-.recEduc:hover {
-	transition : all 1s ease-in-out;
 	border-radius: 40px;
 }
 
@@ -315,15 +313,10 @@ a, p, h1, b {
 .recComp {
   border: 10px solid #bad6bb;
   width:69%;
-	height:100%;
+	height:auto;
   text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	transition : all 1s ease-in-out;
-}
-
-.recComp:hover {
-	transition : all 1s ease-in-out;
 	border-radius: 40px;
 }
 .recComp h2 {
@@ -360,7 +353,7 @@ a, p, h1, b {
 
 .jauge-remplissage1 {
     transition: all 0.3s linear 0s;
-    background-color: #cce6e8;
+    background-color: #4b5640;
     width: 80%;
     height: 100%;
     position: absolute;
@@ -370,7 +363,7 @@ a, p, h1, b {
 
 .jauge-remplissage2 {
     transition: all 0.3s linear 0s;
-    background-color: #cce6e8;
+    background-color: #4b5640;
     width: 70%;
     height: 100%;
     position: absolute;
@@ -380,7 +373,7 @@ a, p, h1, b {
 
 .jauge-remplissage3 {
     transition: all 0.3s linear 0s;
-    background-color: #cce6e8;
+    background-color: #4b5640;
     width: 60%;
     height: 100%;
     position: absolute;
@@ -390,7 +383,7 @@ a, p, h1, b {
 
 .jauge-remplissage4 {
     transition: all 0.3s linear 0s;
-    background-color: #cce6e8;
+    background-color: #4b5640;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -432,7 +425,25 @@ display: inline-block;
 	margin-right: auto;
 }
 
+.resp {
+	display: none;
+}
 
+
+	.prb {
+	  margin-right: auto;
+	  margin-bottom: auto;
+}
+
+.mot {
+	margin-left: 1%;
+	align-items: center;
+	margin-top: 1%;
+}
+
+.text .ens {
+	margin-left:35%;
+}
 
 .hum {
 	display: flex;
@@ -610,7 +621,7 @@ font-size: 50px;
 }
 
 .projet2:hover {
-		background-image: url("../IMAGES/Capture3.PNG");
+		background-image: url("../IMAGES/cap.jpg");
   	background-size: 100% 100%;
 		border-top-right-radius: 100px;
 		border-bottom-left-radius: 100px;
@@ -693,11 +704,6 @@ font-size: 50px;
   text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	transition : all 1s ease-in-out;
-}
-
-.plus:hover {
-	transition : all 1s ease-in-out;
 	border-radius: 40px;
 }
 .plus h2 {
@@ -818,12 +824,23 @@ font-size: 50px;
 	margin-right: auto;
 }
 
+.donne p {
+  text-align: center;
+  color:#383838;
+  font-size: 15px;
+  margin-right: 12%;
+  margin-left: 12%;
+	font-style: italic;
+}
+
 .linkedin {
   width: 200px;
   height: auto;
 	border-radius: 40px;
 	opacity: 0.8;
 	transition : all 0.8s;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .linkedin:hover {
@@ -857,23 +874,14 @@ font-size: 50px;
 	font-weight: bold;
 }
 
-  /* Tablette */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: red;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
-}
-
 #particle-canvas {
   height: 160px;
 
+}
+
+.copy {
+	background-color: #cce6e8;
+	text-align: center;
 }
 
 
